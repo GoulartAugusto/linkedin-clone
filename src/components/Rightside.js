@@ -6,7 +6,7 @@ const Rightside = (props) => {
         <FollowCard>
             <Title>
                 <h2>Add to your feed</h2>
-                <img src="/images/feed-icon.svg" />
+                <img src="/images/feed-icon.svg" alt="" />
             </Title>
 
             <FeedList>
@@ -32,11 +32,11 @@ const Rightside = (props) => {
                 </li>
             </FeedList>
             <Recommendation> View all recommendations
-            <img src="/images/right-icon.svg" />
+            <img src="/images/right-icon.svg" alt=""/>
             </Recommendation>
         </FollowCard>
         <BannerCard>
-            <im src= "https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg" />
+            <img src= "/images/jobs-ad.jpg" alt=""/>
         </BannerCard>
     </Container>
 
